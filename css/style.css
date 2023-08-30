@@ -1,0 +1,142 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.pro-btn{
+    -webkit-text-fill-color: transparent;
+    border: 1px solid orange;
+    transition: 100ms;
+    padding: 4px 12px;
+    /* color: rgb(175, 175, 175); */
+    text-decoration: none;
+    border-radius: 0.2em;
+    /* box-shadow: -0.1px 0.1px 20px orange; */
+    letter-spacing: 1.3px;
+    background:linear-gradient(90deg,#ff4d4d,#f9cb28) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: explore-p 6s infinite 1s;
+}
+
+.pro-btn:hover{
+    /* transform: scale(1.1); */
+    cursor:pointer;
+    /* background: linear-gradient(100deg,#ff930f,#fff95b) no-repeat; */
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    box-shadow: -0.1px 0.1px 5px orange;
+    border: 1px solid orange;
+}
+
+@keyframes explore-p{
+    0%,100% {background-position: -20vh;
+        -webkit-background-clip: text;}
+    33.333%, 50% {background-position: 0vh;
+        -webkit-background-clip: text;}
+    16.66% ,66.667% {background-position: 20vh;
+        -webkit-background-clip: text;}
+}
+
+@keyframes explore{
+    0%,100% {background: white;
+        -webkit-background-clip: text;}
+    33.333%, 50% {background:linear-gradient(90deg,#007cf0,#00dfd8) no-repeat;
+        -webkit-background-clip: text;}
+    16.66% ,66.667% {background: white;
+        -webkit-background-clip: text;}
+}
+.explore{
+    transition: 200ms ease-in;
+    font-weight: 900;
+    font-size: 12vh;
+    background:linear-gradient(90deg,#007cf0,#00dfd8) no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: explore 8s infinite;
+}
+
+@keyframes inspire{
+    0%, 100% {background: white;
+        -webkit-background-clip: text;}
+    33.333%, 50% {background:linear-gradient(90deg,#7928ca,#ff0080) no-repeat;
+        -webkit-background-clip: text;}
+    16.667%, 66.667% {background: white;
+        -webkit-background-clip: text;}
+}
+.inspire{
+    transition: 200ms ease-in;
+    font-weight: 900;
+    font-size: 12vh;
+    background: white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: inspire 8s infinite 3s;
+}
+@keyframes create{
+    0%, 100% {background: white;
+        -webkit-background-clip: text;}
+    33.333%, 50% {background:linear-gradient(90deg,#ff4d4d,#f9cb28) no-repeat;
+        -webkit-background-clip: text;}
+    16.667%, 66.667% {background: white;
+        -webkit-background-clip: text;}
+}
+.create{
+    transition: 200ms ease-in;
+    font-weight: 900;
+    font-size: 12vh;
+    background:white;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: create 8s infinite 5.3s;
+}
+
+
+@keyframes top-link{
+    0%, 100% {background:white;
+        border-color: white;
+        -webkit-background-clip: text;}
+    33.333%, 50% {background:linear-gradient(90deg,#7928ca,#ff0080) no-repeat;
+        border-color: #ff0080;
+        -webkit-background-clip: text;}
+    16.667%, 66.667% {background:white;
+        border-color: white;
+        -webkit-background-clip: text;}
+}
+
+
+section a{
+    background:linear-gradient(90deg,#007cf0,#00dfd8) no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: white; */
+    font-size: 22px;
+    text-decoration: none;
+    padding: 12px 18px;
+    border: 2px solid;
+    animation: top-link 8s infinite;
+    /* box-shadow: 1px 1px 10px #ff0080; */
+    border-radius: 0.3em;
+    transition: 300ms;
+    
+}
+
+
+section a:hover{
+    transform: scale(1.1);
+    box-shadow: -4px 6px #ff0080;
+    border-radius: 0.6em;
+}
