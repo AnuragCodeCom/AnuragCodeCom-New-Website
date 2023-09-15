@@ -33,7 +33,7 @@
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #000;">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar navbar-expand-lg fixed-top" style="background-color: transparent;">
         <div class="container-fluid">
           <a class="navbar-brand" href="/"><img title="AnuragCodeCom"src="/images/CODE.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
             </a>
@@ -43,7 +43,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">Home</a>
+                <a class="nav-link active" aria-current="page" href="">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/"data-bs-toggle="tooltip" data-bs-placement="top"
@@ -51,7 +51,9 @@
                 data-bs-title="This top tooltip is themed via CSS variables.">Projects   <span class="badge bg-light" style="color: black;">New</span></h1></a> 
               </li>
               <li class="nav-item dropdown">
-                <a style=" background-color: #000;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                
+                <a style=" background-color: transparent; " class="nav-link dropdown-toggle" href="services.html"
+                  aria-expanded="false">
                   Services
                 </a>
                 <ul class="dropdown-menu" style="background-color: #000;">
@@ -68,7 +70,7 @@
                 </li>
               </li>
               
-              <a class="icon-link icon-link-hover" href="#">
+              <a class="icon-link icon-link-hover" href="https://anuragcode.com/github" target="_blank">
                 Github
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
@@ -76,7 +78,7 @@
                 </svg>
               </a>
             </ul>
-              <a class=" pro-btn explore-p inspire-p create-p" style="font-size: 18px;">Premium+</a>
+              <!-- <a class=" pro-btn explore-p inspire-p create-p" style="font-size: 18px;">Premium+</a> -->
           </div>
         </div>
       </nav>
@@ -92,7 +94,7 @@
 
 
 
-<section class="section-1" style="height: 90vh; display: flex; align-items: center; flex-direction: column; justify-content: center;">
+<section id="section-1" class="section-1" style="height: 90vh; display: flex; align-items: center; flex-direction: column; justify-content: center;">
       <div style="display:inline-flex; color: white; padding: 100px; display: flex; justify-content: center; align-items: center;">
         <h1 style="color: white;" > <span class="explore">EXPLORE.</span> <span class="inspire">INSPIRE.</span> <span class="create">CREATE.</span></h1>
         </div>
@@ -105,34 +107,56 @@
 
 
 
-<main id="sec2" class="main-sec" style="height: 100vh;">
 
-  <hr style="margin-bottom: 30px; color: white; width: 20%;" >
-  <h3 style="">Tech We Use</h3> <br>
-  
+<main id="sec2" class="main-sec">
+
   <section>
+  <!-- <div class="img-div"></div> -->
+  <div class="text-div">
+    <h1 class="explore">Explore</h1>
+    <h2 class="explore-hidden">Discover Excellence in Website and App Development!!</h2>
+    <br>
+    <div>
+      <a class="icon-link icon-link-hover" href="#">
+        View Services
+        <img class="bi" width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/long-arrow-right--v1.png" alt="long-arrow-right--v1"/>
+      </a>
+    </div>
+  </div>
   
-  <div><img width="48" height="48" src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="javascript--v1"/></div>
-  <div><img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3"/></div>
-  <div><img width="48" height="48" src="https://img.icons8.com/color/48/tailwindcss.png" alt="tailwindcss"/></div>
-  </section>
+</section>
+
+<div style="display: flex; justify-content: center; margin: 0;">
+  <a class="viewmore" href="#sec3"><img width="20" height="20" src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/down--v1.png" alt="down--v1"/></a>
+  </div>
+
+</main>
+
+
+
+
+<main id="sec3" class="main-sec">
+
+  <section>
+  <!-- <div class="img-div"></div> -->
+  <div class="text-div">
+    <h1 class="inspire">Inspire</h1>
+    <h2>Imagination Meets Reality!</h2>
+    <br>
+    <div>
+      <a class="icon-link icon-link-hover" href="#">
+        Projects
+        <img class="bi" width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/long-arrow-right--v1.png" alt="long-arrow-right--v1"/>
+      </a>
+    </div>
+  </div>
   
-  <section>
-    <div><img width="48" height="48" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/></div>
-    <div><img width="48" height="48" src="https://img.icons8.com/color/48/swift.png" alt="swift"/></div>
-    <div style=""><img width="48" height="48" src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/></div>
-  </section>
+</section>
 
-  <hr style="color: white; width: 20%; margin-top: 30px;" >
+<div style="display: flex; justify-content: center; margin: 0;">
+  <a class="viewmore" href="#sec4"><img width="20" height="20" src="https://img.icons8.com/fluency-systems-regular/48/FFFFFF/down--v1.png" alt="down--v1"/></a>
+  </div>
 
-  <!-- <h2>Our Partners</h2>
-  <section>
-    <div style="margin: 0; padding: 0;"></div>
-  </section> -->
-
-  <!-- <div class="scroll-down1" style="display: flex;; justify-content:right; width: 100%;;">
-    <a href=""><span style=" border: 1px solid whitesmoke; display: inline-block; border-radius: 0.6em;"><img width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/down--v1.png" alt="down--v1"/></span></a>
-  </div> -->
 </main>
 
 
@@ -140,30 +164,164 @@
 
 
 
-<script>const $dropdown = $(".dropdown");
-  const $dropdownToggle = $(".dropdown-toggle");
-  const $dropdownMenu = $(".dropdown-menu");
-  const showClass = "show";
-  $(window).on("load resize", function() {
-    if (this.matchMedia("(min-width: 768px)").matches) {
-      $dropdown.hover(
-        function() {
-          const $this = $(this);
-          $this.addClass(showClass);
-          $this.find($dropdownToggle).attr("aria-expanded", "true");
-          $this.find($dropdownMenu).addClass(showClass);
-        },
-        function() {
-          const $this = $(this);
-          $this.removeClass(showClass);
-          $this.find($dropdownToggle).attr("aria-expanded", "false");
-          $this.find($dropdownMenu).removeClass(showClass);
-        }
-      );
-    } else {
-      $dropdown.off("mouseenter mouseleave");
-    }
-  });</script>
+<main id="sec4" class="main-sec">
+
+  <section>
+  <!-- <div class="img-div"></div> -->
+  <div class="text-div">
+    <h1 class="create">Create</h1>
+    <h2>Its Truely Yours</h2>
+    <div>
+      <a class="icon-link icon-link-hover" href="#section-1">
+        Back To Top
+        <img class="bi" width="50" height="50" src="https://img.icons8.com/ios/50/FFFFFF/long-arrow-right--v1.png" alt="long-arrow-right--v1"/>
+      </a>
+    </div>
+  </div>
+  
+</section>
+
+</main>
+
+
+
+
+
+
+
+
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #1c2331"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4"
+             style="background-color: #000000;
+             animation: navbar-light 30s infinite;"
+             >
+      <!-- Left -->
+      <div class="me-5">
+        <span>Everything Has An End</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://anuragcode.com/github" class="text-white me-4" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </a>
+        <a href="https://anuragcode.com/discord" class="text-white me-4" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-discord" viewBox="0 0 16 16">
+            <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+          </svg>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold">AnuragCodeCom</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              Hello Visitor! Say me Hello On My Discord: <a href="https://anuragcode.com/discord" target="_blank">anuragcode.com/discord</a> <br>
+              Its Not A Server Its My Profile!
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Services</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Web Development</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">App Development</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Security & Data</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">View More</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="/" class="text-white">Home</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Projects</a>
+            </p>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Drop Us An Email: </p>
+            <p><i class="fas fa-envelope mr-3"></i> anuragcodecom@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i>Find An Issue With This Page?  
+              <br>   
+            Report us At: bug.anuragcodecom@gmail.com</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="https://anuragcode.com/"
+         >AnuragCode.Com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 
 
