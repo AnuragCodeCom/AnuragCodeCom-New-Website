@@ -65,7 +65,7 @@ a{
     animation: navbar-light 8s infinite;
 }
 
-#sec2{
+#p-sec2,#p-sec3,#p-sec4{
     display: flex; flex-direction: row; justify-content: space-around;
 }
 
@@ -92,8 +92,10 @@ a{
     background: linear-gradient(49deg, #2d4de0 0, #9f71f0 30%, #fc6277 58%, #f8ef6f 95%);
 
     /* width: min-content; */
-    max-width: fit-content;
-    max-height: fit-content;
+    width: 500px;
+    max-height: 500px;
+    max-width: 500px;
+    height: 500px;
     /* height: min-content; */
     display: block;
     overflow: hidden;
@@ -103,8 +105,15 @@ a{
 }
 
 
-.card-container {
+.premium{width: 500px;
+    max-height: 500px;
+    max-width: 500px;
+    height: 500px;
+    background: linear-gradient(49deg, #e5ff00 0, #48ff00 30%, #ff0022 58%, #0099ff 95%);
+}
 
+
+.card-container {
     padding: 50px 40px;
 
     background-color: #222222;
@@ -116,6 +125,14 @@ a{
 
 }
 
+.c-premium{
+    /* color: black; */
+    background-color: #000000;
+}
+
+.c-premium a{
+    /* color: #000; */
+}
 
 .card:hover{
     transform: scale(1.12);
@@ -124,7 +141,7 @@ a{
 .card:hover .card-container {
     cursor:default;
     /* border-radius: 0.8em; */
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     top: 6px;
     bottom: 6px;
     left: 6px;
@@ -160,9 +177,6 @@ a{
   #linkanimation:hover{
     transform: scale(1.1);
   }
-
-
-
 
 
 .pro-btn{
