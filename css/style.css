@@ -608,6 +608,10 @@ section a span{
 @media only screen and (max-width: 900px) {
 
 
+    *{
+        /* display: none; */
+    }
+
 .explore{
     font-size: 8vh;
 }
@@ -622,11 +626,17 @@ section a span{
 }
 
 
-.project-holder{
+.project-holder,.services-holder{
     flex-direction: column;
-    height: fit-content;
-    overflow: hidden;
+    height: max-content;
+    /* overflow: hidden; */
 }
+
+
+.services-m-card{
+    width: 80vw;
+}
+
 
 nav{
     background: black;
